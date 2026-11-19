@@ -1,0 +1,52 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checking & Linting
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# IDE & Editors
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# FastAPI
+.fastapi/
